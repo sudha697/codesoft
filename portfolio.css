@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: satisfy;
+}
+body{
+    background-color: black;
+}
+.cont{
+    position:relative;
+    width:100%;
+    height:100vh;
+
+}
+nav{
+    
+    color:aliceblue;
+    display: flex;
+    margin:auto;
+    width:84%;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    color:rgb(206, 209, 0);
+    
+}
+nav ul li{
+    display:inline-block;
+    margin:10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:green;
+}
+.hero{
+    padding: 40px;
+    margin-left: 8%;
+    margin-top: 15%;
+    margin-right:10%;
+}
+.hero h1{
+    font-size: 35px;
+    color:aliceblue;
+}
+.hero p{
+    color:azure;
+    line-height: 30px;
+    font-size:20px ;
+}
+.detel1{
+   color:#fff;
+    margin-left: 3%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+   text-align: center;
+}
+.detel1 h2{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.detel1 p{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.hi{
+    color:white;
+    list-style-type:none;
+}
+.hero a{
+    font-size: 24px;
+    color: var(--bg-color);
+    margin-right: 1rem;
+}
+.hero a:hover{
+    color:var(--main-color);
+}
+.aa{
+    color:#fff;
+     margin-left: 3%;
+     margin-top: 15%;
+     margin-bottom: 10%;
+    text-align: center;
+ }
+ .aa h2{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+ }
+ .aa h2::after{
+    color:#fff;
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #4ceb95;
+        margin: 4px 10px;
+ }
+ .pro{
+    color:white;
+    list-style-type: none;
+ }
+ .pro li{
+    padding:5px;
+    font-size: 25px;
+ }
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:10px ;
+    right:100px;
+    top:50px;
+}
+.images img{
+    height: 150%;
+    width:50% ;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    border-radius: 100%;
+    border: 10px solid black;
+    transform: translateX(-40%);
+    transition: bottom 1s,left 1s;
+    
+}
+.Name{
+    font-family:'Tangerine';
+}
+.heading{
+    font-family:satisfy;
+    font-weight:bold;
+}
